@@ -17,6 +17,14 @@ type User {
         title: String!
     }
 
+
+type Query {
+    User(username: String!, email: Email!): GetSingleUser
+
+}
+
+type Mutuations : 
+
 `;
 
 module.exports = typeDefs
